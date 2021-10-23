@@ -23,11 +23,16 @@
 
 ## Project Description
  > Your project description should summarize the project you are proposing. Be sure to include:
- > * Why is it important or interesting to you?
+ > * Why is it important or interesting to you?                   
+ > This project is interesting to us because we all grew up playing and enjoying games but never had the chance to actually make one ourselves. 
  > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
- >   * [toolname](link) - Short description
- > * What will be the input/output of your project? What are the features that the project provides?
- > 
+ >   * [toolname](link) - Short description                      
+ >   The language we will be using is C++.               
+ >   The tools we will be using is Git and Github.
+
+> * What will be the input/output of your project? What are the features that the project provides?                                 
+> Our project will feature audio of the game world, a world exploration, combat system.   
+ > The user's input are going to be keyboard controls and the output would be movement combat.             
  > This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
  > 
  > You also need to set up an empty project board by choosing the  “Automated kanban with review” option on Github. You should also have a Backlog and In testing columns added.
