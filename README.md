@@ -27,8 +27,8 @@
  > This project is interesting to us because we all grew up playing and enjoying games but never had the chance to actually make one ourselves. 
  > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
  >   * [toolname](link) - Short description                      
- >   The language we will be using is C++.               
- >   The tools we will be using is Git and Github.
+ >   The language we will be using is C++ and C#.            
+ >   The tools we will be using is Git, Github, and Unity.
 
 > * What will be the input/output of your project? What are the features that the project provides?                                 
 > Our project will feature audio of the game world, a world exploration, combat system.   
