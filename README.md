@@ -19,7 +19,8 @@
 > * Outputs: character's movement/combat              
 
 ## Class Diagram
-
+----------------------------------------------Singleton Pattern---------------------------------------------------
+![image](https://user-images.githubusercontent.com/91449029/141990718-78a9d843-7112-4f2d-b2d7-698442eecdae.png)
  
  > ## Phase III
  > You will need to schedule a check-in with the TA (during lab hours or office hours). Your entire team must be present. 
