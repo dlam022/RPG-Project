@@ -32,8 +32,25 @@ public class CharacterMeleeScript : MonoBehaviour
 
     public IEnumerator MeleeAttack()
     {
+        anim.SetBool("Is Attacking", true);
+        yield return new WaitForEndOfFrame();
+        float time = anim.GetCurrentAnimatorStateInfo(0).length -Time.deltaTime;
+        attacking = true;
 
+        while (attacking) 
+        {
+            time -= Time.deltaTime;
+            yield return null;
+        }
 
+        anim.SetBool("Is Attacking", false);
+        attacking = false;
         yield return null;
+    }
+
+
+    public void AttackFinished()
+    {
+        attacking = false;
     }
 }
