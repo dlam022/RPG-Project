@@ -18,7 +18,7 @@
 > * Inputs: keyboard controls 
 > * Outputs: character's movement/combat              
 
-### Class Diagram
+## Class Diagram
 
  
  > ## Phase III
