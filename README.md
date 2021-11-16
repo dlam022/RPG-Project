@@ -1,49 +1,25 @@
- > As you complete each section you **must** remove the prompt text. Every *turnin* of this project includes points for formatting of this README so keep it clean and keep it up to date. 
- > Prompt text is any lines beginning with "\>"
- > Replace anything between \<...\> with your project specifics and remove angle brackets. For example, you need to name your project and replace the header right below this line with that title (no angle brackets). 
 # RPG Project
- > Your author list below should include links to all members GitHub (remove existing author).
  
- > Authors:  Zachhary Ruiz (https://github.com/Sterberino)                         
- >           Derick Lam (https://github.com/dlam022)                     
- >           Ronny Gorani (https://github.com/ronnygorani)      
- >           Winnie Yee (https://github.com/wyee007)    
- 
- > You will be forming a group of **FOUR** students and working on an interesting project. The project has 4 phases, each one with specific requirements. A list of proposed project ideas that have been successful in previous quarters is listed in the project specifications document on Canvas. You can select an idea from the list, start thinking about the features you will implement, what design patterns can help you implement them, and why. If you want to propose your own original idea, you will have to contact an instructor to discuss the project and obtain written permission before you submit your project proposal (Phase 1). Your project needs to implement at least two design patterns iteratively, which you will have to justify for later phases.The project work should be divided almost equally among team members and each member is expected to work on at least one design pattern (more than one partner may work on a pattern) and some of its test cases. You can of course help each other, but it needs to be clear who will be responsible for which patterns and for which features. Additionally, you are expected to follow Scrum patterns, specifically the use of a Scrum (Project) board, Sprints, and Scrum meetings. While Daily Scrums are not required we highly recommend you practice them too.
- 
- > ## Expectations
- > * Incorporate **at least two** distinct design patterns. You need to include at least *one* design pattern that we will teach this session:
- >   * Composite, Strategy, Abstract Factory or Visitor
- > * All design patterns need to be linked together (it can't be two distinct projects)
- > * Your project should be implemented in C++. If you wish to choose anoher programming language (e.g. Java, Python), please discuss with your lab TA to obtain permission.
- > * You can incorporate additional technologies/tools but they must be approved (in writing) by the instructor or the TA.
- > * Each member of the group **must** be committing code regularly and make sure their code is correctly attributed to them. We will be checking attributions to determine if there was equal contribution to the project.
- > * Each member of the group must actively participate in the Github Project board and reviewing commited code.
-> * All project phases are to be submitted to this GitHub repository. You should modify this README file to reflect the different phases of the project. In addition, you should regularly hold sprint meetings with your group. You will need to hold one check-in meeting with your lab TA in addition to the final demo.
+ ## Authors:  
+ > Zachhary Ruiz (https://github.com/Sterberino)                         
+ > Derick Lam (https://github.com/dlam022)                     
+ > Ronny Gorani (https://github.com/ronnygorani)      
+ > Winnie Yee (https://github.com/wyee007)    
 
 ## Project Description
- > Your project description should summarize the project you are proposing. Be sure to include:
- > * Why is it important or interesting to you?                   
- > This project is interesting to us because we all grew up playing and enjoying games but never had the chance to actually make one ourselves. 
- > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
- >   * [toolname](link) - Short description                      
- >   The language we will be using is C++ and C#.            
- >   The tools we will be using is Git, Github, and Unity.
+ ### Importance and Interests                   
+ > * This project is interesting to us because we all grew up playing and enjoying games but never had the chance to actually make one ourselves.  
 
-> * What will be the input/output of your project? What are the features that the project provides?                                 
-> Our project will feature audio of the game world, a world exploration, combat system.   
- > The user's input are going to be keyboard controls and the output would be movement combat.             
- > This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
- > 
- > You also need to set up an empty project board by choosing the  “Automated kanban with review” option on Github. You should also have a Backlog and In testing columns added.
- > ## Phase II
- > In addition to completing the "Class Diagram" section below, you will need to:
- > * Create an "Epic" (note) for each feature and each design pattern and assign them to the appropriate team member. Place these in the `Backlog` column
- > * Complete your first *sprint planning* meeting to plan out the next 7 days of work.
- >   * Create smaller actionable development tasks as issues and assign them to team members. Place these in the `TODO` column.
- >   * These cards should represent roughly 7 days worth of development time for your team, taking you until your first meeting with the TA
-## Class Diagram
- > Include a class diagram(s) for your project and a description of the diagram(s). Your class diagram(s) should include all the main classes you plan for the project. This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper UML notation (as discussed in the course slides).
+ ### Language and Tools                      
+ > * The language we will be using is C++ and C# and the tools we will be using is Git, Github, and Unity.
+
+### Inputs and Outputs                            
+> * Our project will feature audio of the game world, a world exploration, combat system.   
+> * Inputs: keyboard controls 
+> * Outputs: character's movement/combat              
+
+### Class Diagram
+
  
  > ## Phase III
  > You will need to schedule a check-in with the TA (during lab hours or office hours). Your entire team must be present. 
