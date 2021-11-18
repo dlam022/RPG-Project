@@ -7,7 +7,7 @@ using UnityEngine;
 /// </summary>
 public class PersistentGameManager : MonoBehaviour
 {
-    private PersistentGameManager Instance;
+    private static PersistentGameManager Instance;
     private bool isPaused;
 
     // Start is called before the first frame update
@@ -29,7 +29,7 @@ public class PersistentGameManager : MonoBehaviour
 
     public static PersistentGameManager GetInstance()
     {
-        return this;
+        return Instance;
     }
 
 
