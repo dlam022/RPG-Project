@@ -19,7 +19,12 @@
 > * Outputs: character's movement/combat              
 
 ## Class Diagram
-
+----------------------------------------------Singleton Pattern---------------------------------------------------
+![image](https://user-images.githubusercontent.com/91449029/141990718-78a9d843-7112-4f2d-b2d7-698442eecdae.png)
+>We chose the Singleton Pattern because it is constantly used in the game industry and it helps the game run one object at a time so that the codes do not class. The objects all share one instance, it becomes easier to access of a class. Here we want to write a code where it will return a bool, isPaused so that the game state would not be ruined. 
+----------------------------------------------Strategy Pattern---------------------------------------------------
+![image](https://user-images.githubusercontent.com/82008415/142005136-aa9a964d-8a9a-48ca-825f-59d44fa09375.png)
+> For the movement and attacking of the characters and the enemy, we implemented a Strategy Pattern. Since Unity the usage of C# can change the way the files of code look in comparison to what we're used to, we wanted to use the strategy pattern to simplify the the features and functions of each of classes and what it contains. In an RPG like ours, where combat and movement of several entities are involved, it was clear we had to implement a strategy pattern in order to make our code more efficient. Since the user wasn't the only thing moving and attacking, we will use an abstract class and use subclasses for each of the characters involved in the game.
  
  > ## Phase III
  > You will need to schedule a check-in with the TA (during lab hours or office hours). Your entire team must be present. 
