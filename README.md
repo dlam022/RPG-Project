@@ -60,20 +60,20 @@
 
 
  * Step #2: Next Download: Unity <br/>
-    Click on Link #2 <br/>
-    The version we chose to download was Unity 2019.4.26 <br/>
-    You will need to download both the Unity Hub and the Unity application itself. <br/>
-      If the button for Unity Hub is not working, you can search up Unity Hub Installation on Google (first link that appears) or you can press on Link #3 up above. <br/>
-    After installation, when you open Unity itself, the hub will appear first where you can upload a project(pull this project) or create a new project.  <br/>
+   -Click on Link #2 <br/>
+   -The version we chose to download was Unity 2019.4.26 <br/>
+   -You will need to download both the Unity Hub and the Unity application itself. <br/>
+    -If the button for Unity Hub is not working, you can search up Unity Hub Installation on Google (first link that appears) or you can press on Link #3 up above. <br/>
+   -After installation, when you open Unity itself, the hub will appear first where you can upload a project(pull this project) or create a new project.  <br/>
 
 
-  Specific Settings we used <br/>
-    Project Settings: <br/>
-      Graphics: <br/>
-        Custom Axis: x = 0, y = 1, z = 0 <br/>
-    Preferences: <br/>
-      External Tools:  <br/>
-        External Script Editor: Visual Studio 2019 (should be selected or found through folders) <br/>
+* Specific Settings we used <br/>
+  -Project Settings: <br/>
+   -Graphics: <br/>
+    -Custom Axis: x = 0, y = 1, z = 0 <br/>
+  -Preferences: <br/>
+   -External Tools:  <br/>
+    -External Script Editor: Visual Studio 2019 (should be selected or found through folders) <br/>
 
 
  ## Testing
