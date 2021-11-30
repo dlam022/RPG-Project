@@ -24,8 +24,8 @@
 
 ## Class Diagram
 
-> * ----------------------------------------------Singleton Pattern---------------------------------------------------
-* ![image](https://user-images.githubusercontent.com/91449029/141990718-78a9d843-7112-4f2d-b2d7-698442eecdae.png)
+> * ----------------------------------------------Singleton Pattern---------------------------------------------------<br/>
+ ![image](https://user-images.githubusercontent.com/91449029/141990718-78a9d843-7112-4f2d-b2d7-698442eecdae.png)
 > * We chose the Singleton Pattern because it is constantly used in the game industry and it helps the game run one object at a time so that the codes do not clash. The objects all share one instance, it becomes easier to access of a class. Here we want to write a code where it will return a bool, isPaused so that the game state would not be ruined. This allowes the program to make sure it runs smoothly persistently. This helps us write a better code because we would not have to worry about other teammates code until the end.
 
 
@@ -51,12 +51,12 @@
  > * Link #2: https://unity3d.com/get-unity/download/archive
  > * Link #3: https://unity3d.com/get-unity/download
 
- >* Step #1: Downloading visual studio 
-   >* Click on Link #1
-   >* We specfically downloaded Visual Studio 2019 (picking the free download option)
-   >* After download, there should be a window where you will have to download more to work with unity. 
-   >* You specifically want an individual component called "Visual Studio Tools for Unity" to be installed along with Visual Studio 2019.
-   >* You can pull the code from github when you open visual studio.
+ >* Step #1: Downloading visual studio <br/>
+   > Click on Link #1
+   > We specfically downloaded Visual Studio 2019 (picking the free download option)
+   > After download, there should be a window where you will have to download more to work with unity. 
+   > You specifically want an individual component called "Visual Studio Tools for Unity" to be installed along with Visual Studio 2019.
+   > You can pull the code from github when you open visual studio.
  > * Step #2: Next Download: Unity
    >* Click on Link #2
    >* The version we chose to download was Unity 2019.4.26
