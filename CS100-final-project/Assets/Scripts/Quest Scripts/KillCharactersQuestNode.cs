@@ -108,20 +108,4 @@ public class KillCharactersQuestNode : QuestNodeBase
         }
     }
 
-    public override void LoadSaveData(string path)
-    {
-        base.LoadSaveData(path);
-
-        if (available && !completed && playersCharacterSheet != null)
-        {
-            
-            if (playersCharacterSheet.OnKillsCharacter == null)
-            {
-                 playersCharacterSheet.OnKillsCharacter = new CharacterSheetEvent();
-            }
-
-            playersCharacterSheet.OnKillsCharacter.AddListener(NPCKilled);
-        }
-    }
-
 }

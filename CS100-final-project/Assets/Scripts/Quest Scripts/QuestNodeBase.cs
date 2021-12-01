@@ -119,39 +119,6 @@ public class QuestNodeBase : ScriptableObject
         return copy;
     }
 
-    public virtual void SaveNodeData(string path)
-    {
-        SaveData saveNode = new SaveData();
-        saveNode.available = available;
-        saveNode.completed = completed;
-        saveNode.failed = failed;
-
-        string saveNodeJSON = JsonUtility.ToJson(saveNode);
-
-        File.WriteAllText(path + NodeID + ".json", saveNodeJSON);
-    }
-    
-    public virtual void LoadSaveData(string path)
-    {
-        SaveData saveNode = new SaveData();
-
-        string saveNodeJSON = File.ReadAllText(path + NodeID + ".json");
-
-        if(saveNodeJSON == null)
-        {
-            Debug.Log("Error: File " + path + NodeID + ".json Not found");
-        }
-        else
-        {
-
-            saveNode = JsonUtility.FromJson<SaveData>(saveNodeJSON);
-
-            completed = saveNode.completed;
-            available = saveNode.available;
-            failed = saveNode.available;
-        }
-    }
-
     public virtual void OnValidate()
     {
         UnityAction ua = new UnityAction(ReevaluateAvailability);

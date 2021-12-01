@@ -12,7 +12,10 @@ public class Quest : ScriptableObject
     public string QuestName;
     public int experienceForCompletion;
 
+    //The first node in the quest
     public QuestNodeBase initalNode;
+
+    //The final node in the quest. Once this is done, the quest is completed.
     public QuestNodeBase finalNode;
 
     [Space]
@@ -24,16 +27,6 @@ public class Quest : ScriptableObject
     public bool Completed;
     public bool Failed;
 
-    [Space]
-    public bool resetButton;
-
-    [System.Serializable]
-    private struct SaveData
-    {
-        public bool Started;
-        public bool Completed;
-        public bool Failed;
-    }
 
     public void StartQuest()
     {

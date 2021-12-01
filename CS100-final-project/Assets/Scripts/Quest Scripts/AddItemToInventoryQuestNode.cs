@@ -11,7 +11,7 @@ public class AddItemToInventoryQuestNode : QuestNodeBase
     public int amountRequired;
     public int amountFound;
 
-
+    //Gets triggered when an item is added to the players inventory. If the item is the item required for the quest, we make progress towards completion
     public void ItemAdded(Item item)
     {
         if(item.GetName() == requiredItem.GetName())
@@ -30,6 +30,7 @@ public class AddItemToInventoryQuestNode : QuestNodeBase
         }
     }
 
+    //Completes quest node, removes listener to players inventory
     public override void MarkAsComplete()
     {
         base.MarkAsComplete();
@@ -45,6 +46,7 @@ public class AddItemToInventoryQuestNode : QuestNodeBase
         }
     }
 
+    //Marks that the quest node is available and prepares it to listen for items added to inventory
     public override void MarkAsAvailable()
     {
         available = true;
@@ -53,9 +55,7 @@ public class AddItemToInventoryQuestNode : QuestNodeBase
         {
             OnNodeAvailable.Invoke();
         }
-   
-
- 
+  
 
         if (playersInventory != null)
         {
@@ -111,15 +111,5 @@ public class AddItemToInventoryQuestNode : QuestNodeBase
        
     }
 
-    public override void LoadSaveData(string path)
-    {
-        base.LoadSaveData(path);
-
-        if (playersInventory != null && playersInventory.OnAddItem != null && available && !completed)
-        {
-            playersInventory.OnAddItem.RemoveListener(ItemAdded);
-            playersInventory.OnAddItem.AddListener(ItemAdded);
-        }
-    }
 
 }
