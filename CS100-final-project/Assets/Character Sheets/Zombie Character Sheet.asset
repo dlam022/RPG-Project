@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d09579396e36134284e5234b80f77ec, type: 3}
   m_Name: Zombie Character Sheet
   m_EditorClassIdentifier: 
-  CharacterName: 
+  CharacterName: Zombie
   stats:
     OnModifyHealth:
       m_PersistentCalls:
         m_Calls: []
     MaxHealth: 100
-    CurrentHealth: 0
+    CurrentHealth: 60
     Attack: 0
     Defense: 0
   inventory:

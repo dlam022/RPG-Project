@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d09579396e36134284e5234b80f77ec, type: 3}
   m_Name: Player Character Sheet
   m_EditorClassIdentifier: 
-  CharacterName: 
+  CharacterName: Player
   stats:
     OnModifyHealth:
       m_PersistentCalls:
