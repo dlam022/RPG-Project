@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [System.Serializable]
 public class CharacterBasicStats
 {
+    public IntEvent OnModifyHealth;
+
     [SerializeField]
     private int MaxHealth;
 
@@ -51,5 +54,11 @@ public class CharacterBasicStats
 
         //Clamps current health between 0 and the maximum amount
         CurrentHealth = Mathf.Clamp(CurrentHealth, 0, MaxHealth);
+
+        if(OnModifyHealth != null)
+        {
+            OnModifyHealth.Invoke(amount);
+        }
+     
     }
 }

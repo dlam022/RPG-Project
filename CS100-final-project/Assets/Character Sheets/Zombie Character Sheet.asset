@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d09579396e36134284e5234b80f77ec, type: 3}
-  m_Name: Player Character Sheet
+  m_Name: Zombie Character Sheet
   m_EditorClassIdentifier: 
   CharacterName: 
   stats:
@@ -18,8 +18,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     MaxHealth: 100
-    CurrentHealth: 100
-    Attack: 5
+    CurrentHealth: 0
+    Attack: 0
     Defense: 0
   inventory:
     OnAddItem:

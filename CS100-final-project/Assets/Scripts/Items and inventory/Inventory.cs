@@ -55,7 +55,37 @@ public class Inventory
     /// <returns></returns>
     public int GetArmorRating()
     {
-        return Chest.GetArmorValue() + Legs.GetArmorValue() + Helmet.GetArmorValue();
+        int rating = 0;
+        if(Chest != null)
+        {
+            rating += Chest.GetArmorValue();
+        }
+        if(Legs!= null)
+        {
+            rating += Legs.GetArmorValue();
+        }
+        if(Helmet != null)
+        {
+            rating += Helmet.GetArmorValue();
+        }
+
+        return rating;
+    }
+    /// <summary>
+    /// Gets the Attack value of the equipped weapon. If no weapon is equipped, returns 0.
+    /// </summary>
+    /// <returns></returns>
+    public int GetAttackRating()
+    {
+        
+        if(Weapon!= null)
+        {
+            return Weapon.GetAttackValue();
+        }
+        else
+        {
+            return 0;
+        }
     }
 
     public void AddItemToInventory(Item item)

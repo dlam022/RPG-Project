@@ -1,0 +1,1544 @@
+fileFormatVersion: 2
+guid: cd58415c94f36014eb5436d0f64d7c1f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5262716116539310577
+    second: RiotZombieCompositeSheet_0
+  - first:
+      213: 4601630059241030726
+    second: RiotZombieCompositeSheet_1
+  - first:
+      213: 2698411019991578887
+    second: RiotZombieCompositeSheet_2
+  - first:
+      213: -318442360996541007
+    second: RiotZombieCompositeSheet_3
+  - first:
+      213: -1070346013882409984
+    second: RiotZombieCompositeSheet_4
+  - first:
+      213: -5866275184886315633
+    second: RiotZombieCompositeSheet_5
+  - first:
+      213: -13898675455318644
+    second: RiotZombieCompositeSheet_6
+  - first:
+      213: 459126846899391239
+    second: RiotZombieCompositeSheet_7
+  - first:
+      213: 4200734563910884428
+    second: RiotZombieCompositeSheet_8
+  - first:
+      213: 154194496398703330
+    second: RiotZombieCompositeSheet_9
+  - first:
+      213: -6886821427264033688
+    second: RiotZombieCompositeSheet_10
+  - first:
+      213: -5479328364560817643
+    second: RiotZombieCompositeSheet_11
+  - first:
+      213: 7094148376264897392
+    second: RiotZombieCompositeSheet_12
+  - first:
+      213: -1217601944526838362
+    second: RiotZombieCompositeSheet_13
+  - first:
+      213: -8981571052751983964
+    second: RiotZombieCompositeSheet_14
+  - first:
+      213: 5235315585981542724
+    second: RiotZombieCompositeSheet_15
+  - first:
+      213: 6514168796855675221
+    second: RiotZombieCompositeSheet_16
+  - first:
+      213: 5404557199309440119
+    second: RiotZombieCompositeSheet_17
+  - first:
+      213: 7956192269749319384
+    second: RiotZombieCompositeSheet_18
+  - first:
+      213: -7237906894763701605
+    second: RiotZombieCompositeSheet_19
+  - first:
+      213: 8932086113061661153
+    second: RiotZombieCompositeSheet_20
+  - first:
+      213: -3905750972851397066
+    second: RiotZombieCompositeSheet_21
+  - first:
+      213: 8709939639352736132
+    second: RiotZombieCompositeSheet_22
+  - first:
+      213: 5071274284116820688
+    second: RiotZombieCompositeSheet_23
+  - first:
+      213: -798665839492152758
+    second: RiotZombieCompositeSheet_24
+  - first:
+      213: 6386037260753101016
+    second: RiotZombieCompositeSheet_25
+  - first:
+      213: 6210589117488304255
+    second: RiotZombieCompositeSheet_26
+  - first:
+      213: 2092285104476995597
+    second: RiotZombieCompositeSheet_27
+  - first:
+      213: -3148826263575841487
+    second: RiotZombieCompositeSheet_28
+  - first:
+      213: -1805745511690271560
+    second: RiotZombieCompositeSheet_29
+  - first:
+      213: 6037393355362468008
+    second: RiotZombieCompositeSheet_30
+  - first:
+      213: 6715498549702857734
+    second: RiotZombieCompositeSheet_31
+  - first:
+      213: -5461860344358253126
+    second: RiotZombieCompositeSheet_32
+  - first:
+      213: -7555019924092626900
+    second: RiotZombieCompositeSheet_33
+  - first:
+      213: -7105540902211234998
+    second: RiotZombieCompositeSheet_34
+  - first:
+      213: -3285049616816467781
+    second: RiotZombieCompositeSheet_35
+  - first:
+      213: -3166875575926246145
+    second: RiotZombieCompositeSheet_36
+  - first:
+      213: -7261804367478720521
+    second: RiotZombieCompositeSheet_37
+  - first:
+      213: -1922997760548811967
+    second: RiotZombieCompositeSheet_38
+  - first:
+      213: 3581409259884950204
+    second: RiotZombieCompositeSheet_39
+  - first:
+      213: -5523283660014460552
+    second: RiotZombieCompositeSheet_40
+  - first:
+      213: 6136299359871390965
+    second: RiotZombieCompositeSheet_41
+  - first:
+      213: 6594756090781856379
+    second: RiotZombieCompositeSheet_42
+  - first:
+      213: -1933258583293007601
+    second: RiotZombieCompositeSheet_43
+  - first:
+      213: 7017162738630274221
+    second: RiotZombieCompositeSheet_44
+  - first:
+      213: -2066821863411894256
+    second: RiotZombieCompositeSheet_45
+  - first:
+      213: 4862249002454541097
+    second: RiotZombieCompositeSheet_46
+  - first:
+      213: 8327656150087705734
+    second: RiotZombieCompositeSheet_47
+  - first:
+      213: -2003902927758707008
+    second: RiotZombieCompositeSheet_48
+  - first:
+      213: -8081370346964335972
+    second: RiotZombieCompositeSheet_49
+  - first:
+      213: 5019779609172366978
+    second: RiotZombieCompositeSheet_50
+  - first:
+      213: 582081221447979886
+    second: RiotZombieCompositeSheet_51
+  - first:
+      213: 9195718812288867360
+    second: RiotZombieCompositeSheet_52
+  - first:
+      213: -3273783687060026145
+    second: RiotZombieCompositeSheet_53
+  - first:
+      213: -8758365339265540222
+    second: RiotZombieCompositeSheet_54
+  - first:
+      213: -6227983675001620026
+    second: RiotZombieCompositeSheet_55
+  - first:
+      213: -8324275835308443923
+    second: RiotZombieCompositeSheet_56
+  - first:
+      213: -21030495059147180
+    second: RiotZombieCompositeSheet_57
+  - first:
+      213: 2488490595940851955
+    second: RiotZombieCompositeSheet_58
+  - first:
+      213: 4142721420930888228
+    second: RiotZombieCompositeSheet_59
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 226
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f18c08cc6ce80940800000000000000
+      internalID: 5262716116539310577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 226
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64442dc88264cdf30800000000000000
+      internalID: 4601630059241030726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 226
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709f890a68ea27520800000000000000
+      internalID: 2698411019991578887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 226
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd4d5f1c5aa49bf0800000000000000
+      internalID: -318442360996541007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 226
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c98c7a8fd5521f0800000000000000
+      internalID: -1070346013882409984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 226
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85892adccdc69ea0800000000000000
+      internalID: -5866275184886315633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 225
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8523a27a3f9ecff0800000000000000
+      internalID: -13898675455318644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 225
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b88484f652f5600800000000000000
+      internalID: 459126846899391239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_8
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 226
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c1d9554d10c4a30800000000000000
+      internalID: 4200734563910884428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 194
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea3a28d31fc32200800000000000000
+      internalID: 154194496398703330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 194
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ce06c56681d60a0800000000000000
+      internalID: -6886821427264033688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 194
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51261a612e385f3b0800000000000000
+      internalID: -5479328364560817643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 194
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073fe2f9c5a737260800000000000000
+      internalID: 7094148376264897392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_13
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 194
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a527aa8b753a1fe0800000000000000
+      internalID: -1217601944526838362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 194
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa69c3c6bc0b5380800000000000000
+      internalID: -8981571052751983964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_15
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 193
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441fe7d99c397a840800000000000000
+      internalID: 5235315585981542724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 193
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5592487d10af66a50800000000000000
+      internalID: 6514168796855675221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_17
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 193
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7748e116328d00b40800000000000000
+      internalID: 5404557199309440119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 162
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6fd1337b21a6e60800000000000000
+      internalID: 7956192269749319384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_19
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 162
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a424cf60acd8b90800000000000000
+      internalID: -7237906894763701605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_20
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 162
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e96d30eef425fb70800000000000000
+      internalID: 8932086113061661153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_21
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 162
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e5e0a0f2cfbc9c0800000000000000
+      internalID: -3905750972851397066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_22
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 162
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489b6ba64fbefd870800000000000000
+      internalID: 8709939639352736132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_23
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 162
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d24b57b719c06640800000000000000
+      internalID: 5071274284116820688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_24
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 161
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42c4d686a19ae4f0800000000000000
+      internalID: -798665839492152758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 161
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0e891dd03cf9850800000000000000
+      internalID: 6386037260753101016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_26
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 161
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f701cc1b5e1703650800000000000000
+      internalID: 6210589117488304255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_27
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 130
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d004135973a490d10800000000000000
+      internalID: 2092285104476995597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_28
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 130
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135342c423f1d44d0800000000000000
+      internalID: -3148826263575841487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_29
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 130
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b402fc3604b0f6e0800000000000000
+      internalID: -1805745511690271560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_30
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 130
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a00fabe44129c350800000000000000
+      internalID: 6037393355362468008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_31
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 130
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60490b8c95e323d50800000000000000
+      internalID: 6715498549702857734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_32
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 130
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdcbb974f29334b0800000000000000
+      internalID: -5461860344358253126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_33
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 129
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28d571486d272790800000000000000
+      internalID: -7555019924092626900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_34
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 129
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43d0ba323c046d90800000000000000
+      internalID: -7105540902211234998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 129
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb01f1847c82962d0800000000000000
+      internalID: -3285049616816467781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 99
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff43e09417ffc04d0800000000000000
+      internalID: -3166875575926246145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_37
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 99
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7fc080763e83b90800000000000000
+      internalID: -7261804367478720521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_38
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 99
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bcd9aa9b32055e0800000000000000
+      internalID: -1922997760548811967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_39
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 98
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2bcba2fb8b3b130800000000000000
+      internalID: 3581409259884950204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_40
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 97
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8716e1b56ca5953b0800000000000000
+      internalID: -5523283660014460552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_41
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 97
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4579c91c3882550800000000000000
+      internalID: 6136299359871390965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_42
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 67
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72756b59b7458b50800000000000000
+      internalID: 6594756090781856379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_43
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 67
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0968d3bf8fab25e0800000000000000
+      internalID: -1933258583293007601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_44
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 67
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac2a2f0558f16160800000000000000
+      internalID: 7017162738630274221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 67
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018b259377c2153e0800000000000000
+      internalID: -2066821863411894256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_46
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 66
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923ecc8d4bd2a7340800000000000000
+      internalID: 4862249002454541097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 67
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684239d8527c19370800000000000000
+      internalID: 8327656150087705734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 35
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6b39287e4b034e0800000000000000
+      internalID: -2003902927758707008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_49
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 34
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92c0d28c7439df80800000000000000
+      internalID: -8081370346964335972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_50
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 35
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286d77765f6d9a540800000000000000
+      internalID: 5019779609172366978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_51
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 35
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6315d279c7f31800800000000000000
+      internalID: 582081221447979886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_52
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 35
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cdadce981cd9f70800000000000000
+      internalID: 9195718812288867360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_53
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 35
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc8155f41f2192d0800000000000000
+      internalID: -3273783687060026145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_54
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fdbf3b029047680800000000000000
+      internalID: -8758365339265540222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_55
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9b89848d1c199a0800000000000000
+      internalID: -6227983675001620026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_56
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de672105b3b3a7c80800000000000000
+      internalID: -8324275835308443923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_57
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4568c8c40e845bff0800000000000000
+      internalID: -21030495059147180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_58
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f064fd2305e88220800000000000000
+      internalID: 2488490595940851955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiotZombieCompositeSheet_59
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422bcf9ee27ed7930800000000000000
+      internalID: 4142721420930888228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
