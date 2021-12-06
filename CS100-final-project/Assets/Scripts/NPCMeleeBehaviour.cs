@@ -18,6 +18,8 @@ public class NPCMeleeBehaviour : MonoBehaviour
     public float attackCooldown;
     public float counter;
 
+    public float recentAttackCounter;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,13 +34,15 @@ public class NPCMeleeBehaviour : MonoBehaviour
         {
             characterSheet = csh.characterSheet;
         }
-        else
+
+
+        if (characterSheet == null)
         {
             Debug.LogError("Character sheet holder not found or character sheet is null for gameobject " + gameObject.name);
         }
 
         playerReference = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-
+        recentAttackCounter = 0.5f;
     }
 
     // Update is called once per frame
@@ -48,6 +52,8 @@ public class NPCMeleeBehaviour : MonoBehaviour
         {
             return;
         }
+
+        recentAttackCounter -= Time.deltaTime;
 
         float distance = Vector3.Distance(transform.position, playerReference.position);
         if (distance > 0.7f || attacking)
@@ -108,7 +114,10 @@ public class NPCMeleeBehaviour : MonoBehaviour
 
     public void ActivateHitBox()
     {
-
+        if(recentAttackCounter >=0)
+        {
+            return;
+        }
 
         //Get the face direction of the character
         Vector2 directionVector = new Vector2(anim.GetFloat("Move X"), anim.GetFloat("Move Y"));
@@ -150,11 +159,13 @@ public class NPCMeleeBehaviour : MonoBehaviour
                 {
                     CharacterSheet other = csh.characterSheet;
                     DealDamageTo(other);
+                    Debug.Log("Found character " + other.CharacterName);
+                    break;
                 }
 
-                break;
             }
         }
+        recentAttackCounter = 0.5f;
     }
 
     public void DealDamageTo(CharacterSheet other)
