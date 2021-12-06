@@ -9,6 +9,8 @@ public class PersistentGameManager : MonoBehaviour
 {
     private static PersistentGameManager Instance;
     private bool isPaused;
+    private bool inDialogue;
+
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +34,6 @@ public class PersistentGameManager : MonoBehaviour
         return Instance;
     }
 
-
     public bool Paused()
     {
         return isPaused;
@@ -48,4 +49,18 @@ public class PersistentGameManager : MonoBehaviour
         isPaused = false;
     }
 
+    public bool InDialogue()
+    {
+        return inDialogue;
+    }
+
+    public void StartDialogue()
+    {
+        inDialogue = true;
+    }
+
+    public void EndDialogue()
+    {
+        inDialogue = false;
+    }
 }

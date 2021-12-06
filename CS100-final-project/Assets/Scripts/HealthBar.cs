@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HealthBar : MonoBehaviour
 {
-   
+
     //public bool testTakeDamageButton;
     //public int testAmount;
 
-
+    public TMP_Text Text;
     public Image healthBarFill;
     public CharacterSheet character;
 
@@ -28,6 +29,8 @@ public class HealthBar : MonoBehaviour
         }
         character.stats.OnModifyHealth.RemoveListener(UpdateFill);
         character.stats.OnModifyHealth.AddListener(UpdateFill);
+
+        Text.text = character.CharacterName;
     }
 
     public void UpdateFill(int amount)

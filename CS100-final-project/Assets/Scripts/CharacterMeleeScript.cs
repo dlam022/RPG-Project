@@ -8,8 +8,7 @@ public class CharacterMeleeScript : MonoBehaviour
     private Animator anim;
     private bool attacking;
 
-    //Damage dealt if no weapon equipped
-    public int baseDamage;
+
 
     //We will have a list of colliders to use as our hit boxes. They will be indexed 0 to 3 as follows
     //0 - Right
@@ -17,12 +16,14 @@ public class CharacterMeleeScript : MonoBehaviour
     //2 - Left
     //3 - Down
     //This is in keeping with basic trig given angles 0 to 360
+    [Tooltip("0 = Right, 1 = Up, 2 = Left, 3 = Down")]
     public List<BoxCollider2D> hitBoxes;
 
     //reference to the character Sheet associated with this game object
     public CharacterSheet characterSheet;
 
     //The key to be pressed to attack. We can change this or specify in editor
+
     public KeyCode attackKeycode;
 
     // Start is called before the first frame update
@@ -33,7 +34,8 @@ public class CharacterMeleeScript : MonoBehaviour
             anim = GetComponent<Animator>();
         }
 
-        if (TryGetComponent<CharacterSheetHolder>(out CharacterSheetHolder csh) && csh.characterSheet != null)
+
+        if (characterSheet == null && TryGetComponent<CharacterSheetHolder>(out CharacterSheetHolder csh) && csh.characterSheet != null)
         {
             characterSheet = csh.characterSheet;
         }
@@ -42,13 +44,24 @@ public class CharacterMeleeScript : MonoBehaviour
             Debug.LogError("Character sheet holder not found or character sheet is null for gameobject " + gameObject.name);
         }
 
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Only start the coroutine if not already attacking
+
         if(Input.GetKeyDown(attackKeycode) && !attacking)
+
+        if (PersistentGameManager.GetInstance().InDialogue() || PersistentGameManager.GetInstance().Paused())
+        {
+            return;
+        }
+
+
+        //Only start the coroutine if not already attacking
+        if (Input.GetKeyDown(attackKeycode) && !attacking)
+
         {
             StartCoroutine(MeleeAttack());
         }
@@ -58,8 +71,6 @@ public class CharacterMeleeScript : MonoBehaviour
     {
         anim.SetBool("Is Attacking", true);
         yield return new WaitForEndOfFrame();
-
-        //Gets the length of the currently playing animation (this is why we needed to wait until a new frame)
         float time = anim.GetCurrentAnimatorStateInfo(0).length -Time.deltaTime;
         attacking = true;
 
@@ -75,11 +86,10 @@ public class CharacterMeleeScript : MonoBehaviour
     }
 
 
-    //In order to notify the animator of when the animation is finished, this method is called via animation
-    //event in a keyframe. The animation itself calls it.
     public void AttackFinished()
     {
         attacking = false;
+
 
         //Turn off the hitbox if it is on
         foreach(BoxCollider2D collider in hitBoxes)
@@ -144,7 +154,7 @@ public class CharacterMeleeScript : MonoBehaviour
 
     public void DealDamageTo(CharacterSheet other)
     {
-        int atk = atk = characterSheet.stats.GetAttack() + characterSheet.inventory.GetAttackRating();
+        int atk  = characterSheet.stats.GetAttack() + characterSheet.inventory.GetAttackRating();
 
        
 
@@ -153,5 +163,6 @@ public class CharacterMeleeScript : MonoBehaviour
 
         other.stats.ModifyCurrentHealth(dmg * -1);
         
+
     }
 }
