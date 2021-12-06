@@ -54718,7 +54718,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e11c3c2be68c1241b056e0a310ce34b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitBoxes:
+  - {fileID: 471599948}
+  - {fileID: 882465216}
+  - {fileID: 1328030727}
+  - {fileID: 2031064906}
   characterSheet: {fileID: 11400000, guid: f219a52470b359745ab31417dafe9828, type: 2}
+  attackCooldown: 1
+  counter: 0
 --- !u!114 &2138452050
 MonoBehaviour:
   m_ObjectHideFlags: 0
