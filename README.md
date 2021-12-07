@@ -42,7 +42,11 @@
  
  ## Screenshots
  
- > !!!!!!!!!!!!!!!!!!!!!!!!!!!!!Screenshots of the input/output after running your application
+ >![unknown (1)](https://user-images.githubusercontent.com/91449029/145005670-b75d530a-c608-4775-8178-f931f00e479b.png)
+ >* This is Unity where we create the 2d coded game. This isn't where the actual code is but this is where the code from another IDE(in our case Visual Studio) becomes visual and where the user shall interact when playing with the outcome. This is also the space to create the map, the character orientation, settings, etc. Let us take a closer look at the map we have created here (below) : <br/>
+ > ![unknown](https://user-images.githubusercontent.com/91449029/145005015-cc082565-23cf-4490-99ee-e42ad7992ea5.png) <br/>
+ > * Here we have the full map of the game where we were able to use Unity to create it. Unity allows us to edit the map to make sure it functions like one, for example, we have objects that are animated so that the character is not able to run through the object. Instead the character will run into the object and not be able to proceed unless they go another way. A future idea could be to add if the character were to run into a door then they would enter a new "map" which would be inside whatever door they run in to. <br/>
+
  
  ## Installation/Usage
  
