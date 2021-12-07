@@ -27,11 +27,13 @@ public class InventoryMenu : MonoBehaviour
             if(!menuOpen)
             {
                 MenuRootObject.SetActive(true);
+                PersistentGameManager.GetInstance().PauseGame();
                 ResetList();
             }
             else
             {
                 MenuRootObject.SetActive(false);
+                PersistentGameManager.GetInstance().UnPauseGame();
             }
             menuOpen = !menuOpen;
         }
