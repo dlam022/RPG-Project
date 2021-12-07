@@ -28,7 +28,10 @@ MonoBehaviour:
     OnRemoveItem:
       m_PersistentCalls:
         m_Calls: []
-    itemsInInventory: []
+    itemsInInventory:
+    - {fileID: 11400000, guid: 81041fd042d551547a77f0b0a986beb8, type: 2}
+    - {fileID: 11400000, guid: 81041fd042d551547a77f0b0a986beb8, type: 2}
+    - {fileID: 11400000, guid: 62a2a508d280ea242af5b45b9c3244ab, type: 2}
   levelData:
     currentExperience: 0
     experienceRequiredToLevelUp: 0

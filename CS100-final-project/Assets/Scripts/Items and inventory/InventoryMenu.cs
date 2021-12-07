@@ -69,6 +69,14 @@ public class InventoryMenu : MonoBehaviour
         button.buttonImage.enabled = true;
         activeButton = button;
 
+        foreach(ViewItemButton b in buttons)
+        {
+            if(b != activeButton)
+            {
+                b.buttonImage.enabled = false;
+            }
+        }
+
         DisplayItem(button.item);
     }
 
