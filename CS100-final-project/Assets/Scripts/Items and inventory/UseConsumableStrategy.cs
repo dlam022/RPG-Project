@@ -11,7 +11,7 @@ public class UseConsumableStrategy : UseItemStrategy
     }
 
 
-    protected override void Execute()
+    public override void Execute()
     {
         ConsumableItem it = item as ConsumableItem;
         int amount = it.GetHealAmount();

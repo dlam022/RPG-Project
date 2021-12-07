@@ -6,6 +6,6 @@ public abstract class UseItemStrategy
 {
     protected CharacterSheet characterSheet;
     protected Item item;
-    protected abstract void Execute();
+    public abstract void Execute();
 
 }

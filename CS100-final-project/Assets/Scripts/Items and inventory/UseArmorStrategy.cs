@@ -12,7 +12,7 @@ public class UseArmorStrategy : UseItemStrategy
     }
 
 
-    protected override void Execute()
+    public override void Execute()
     {
         characterSheet.inventory.EquipArmor(item as ArmorItem);
     }

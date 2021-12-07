@@ -456,13 +456,14 @@ GameObject:
   - component: {fileID: 62385498}
   - component: {fileID: 62385500}
   - component: {fileID: 62385499}
+  - component: {fileID: 62385501}
   m_Layer: 5
   m_Name: ItemSelectionButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &62385498
 RectTransform:
   m_ObjectHideFlags: 0
@@ -478,10 +479,10 @@ RectTransform:
   m_Father: {fileID: 1897659999}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 67.5, y: -12.5}
+  m_SizeDelta: {x: 130, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &62385499
 MonoBehaviour:
@@ -521,6 +522,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62385497}
   m_CullTransparentMesh: 0
+--- !u!114 &62385501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62385497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aacfec179120fa4180e31b0eb2e647b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menu: {fileID: 0}
+  item: {fileID: 0}
+  buttonImage: {fileID: 62385499}
+  buttonText: {fileID: 1716214791}
 --- !u!1001 &67931357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4302,6 +4319,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 612728770}
+  - component: {fileID: 612728771}
   m_Layer: 5
   m_Name: Item Viewer
   m_TagString: Untagged
@@ -4333,6 +4351,21 @@ RectTransform:
   m_AnchoredPosition: {x: 75, y: 27}
   m_SizeDelta: {x: 150, y: 375}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &612728771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612728769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81cdfcd030e7024c9f34e5070fa86d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDisplayImage: {fileID: 623119347}
+  itemDescription: {fileID: 697922032}
+  button: {fileID: 2078219656}
 --- !u!1 &623119345
 GameObject:
   m_ObjectHideFlags: 0
@@ -8835,6 +8868,7 @@ GameObject:
   - component: {fileID: 1001166490}
   - component: {fileID: 1001166489}
   - component: {fileID: 1001166488}
+  - component: {fileID: 1001166492}
   m_Layer: 5
   m_Name: Inventory UI
   m_TagString: Untagged
@@ -8925,6 +8959,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1001166492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001166487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c51f10acf54d041a0a608f96a33b29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCharacterSheet: {fileID: 11400000, guid: 71c1f2b869d043d4cb395348ef64aa88,
+    type: 2}
+  gridLayoutObject: {fileID: 1897659998}
+  ItemButtonPrefab: {fileID: 62385497}
+  viewer: {fileID: 612728771}
+  buttons: []
+  activeButton: {fileID: 0}
 --- !u!1001 &1003095356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55618,6 +55671,7 @@ GameObject:
   - component: {fileID: 2078219653}
   - component: {fileID: 2078219655}
   - component: {fileID: 2078219654}
+  - component: {fileID: 2078219656}
   m_Layer: 5
   m_Name: Use Item Button
   m_TagString: Untagged
@@ -55683,6 +55737,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078219652}
   m_CullTransparentMesh: 0
+--- !u!114 &2078219656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078219652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fafb32e772cf85145b5ad1fe0622ad14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonText: {fileID: 685789134}
+  buttonImage: {fileID: 2078219654}
+  OnUseItem:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2086270533
 GameObject:
   m_ObjectHideFlags: 0

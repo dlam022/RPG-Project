@@ -13,7 +13,7 @@ public class UseWeaponStrategy : UseItemStrategy
     }
 
 
-    protected override void Execute()
+    public override void Execute()
     {
         characterSheet.inventory.EquipWeapon(item as WeaponItem);
     }
