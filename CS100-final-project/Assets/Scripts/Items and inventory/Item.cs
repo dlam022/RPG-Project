@@ -37,6 +37,4 @@ public abstract class Item : ScriptableObject
         return itemName;
     }
 
-    public abstract void UseItem(CharacterSheet target);
-
 }

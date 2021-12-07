@@ -18,10 +18,5 @@ public class ArmorItem : Item
         return armorValue;
     }
 
-    // Start is called before the first frame update
-    public override void UseItem(CharacterSheet target)
-    {
-        target.inventory.EquipArmor(this);
-        //throw new System.NotImplementedException();
-    }
+ 
 }

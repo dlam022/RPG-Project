@@ -74,14 +74,15 @@ public class CharacterMeleeScript : MonoBehaviour
         float time = anim.GetCurrentAnimatorStateInfo(0).length -Time.deltaTime;
         attacking = true;
 
-        while (attacking) 
+        while (attacking && time >= 0) 
         {
             time -= Time.deltaTime;
             yield return null;
         }
 
-        anim.SetBool("Is Attacking", false);
         attacking = false;
+        anim.SetBool("Is Attacking", false);
+
         yield return null;
     }
 

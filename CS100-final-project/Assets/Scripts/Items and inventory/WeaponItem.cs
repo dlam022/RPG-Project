@@ -14,8 +14,5 @@ public class WeaponItem : Item
         return AttackValue;
     }
 
-    public override void UseItem(CharacterSheet target)
-    {
-        target.inventory.EquipWeapon(this);
-    }
+  
 }
