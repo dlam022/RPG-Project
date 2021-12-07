@@ -13,6 +13,11 @@ public class DialogueManager : MonoBehaviour
 
     public void SetupTextBox(DialogueNodeScript currentNode)
     {
+        if(!PersistentGameManager.GetInstance().InDialogue())
+        {
+            PersistentGameManager.GetInstance().StartDialogue();
+        }
+
         ClearBox();      
         StartCoroutine(DisplayText(currentNode));
         if(currentNode.Options.Count >1)
@@ -97,6 +102,10 @@ public class DialogueManager : MonoBehaviour
             }
             else if (node.Options.Count == 0)
             {
+                if (PersistentGameManager.GetInstance().InDialogue())
+                {
+                    PersistentGameManager.GetInstance().EndDialogue();
+                }
                 Destroy(this.gameObject);
             }
         }
