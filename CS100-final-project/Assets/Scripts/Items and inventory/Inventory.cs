@@ -190,4 +190,15 @@ public class Inventory
             return null;
         }
     }
+
+    public void Reset()
+    {
+        Helmet = null;
+        Legs = null;
+        Chest = null;
+
+        Weapon = null;
+
+        itemsInInventory.Clear();
+    }
 }

@@ -43,3 +43,4 @@ MonoBehaviour:
   OnKillsCharacter:
     m_PersistentCalls:
       m_Calls: []
+  Reset: 0

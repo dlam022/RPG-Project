@@ -26,7 +26,9 @@ public class Quest : ScriptableObject
     public bool Started;
     public bool Completed;
     public bool Failed;
-
+    [Space]
+    [Space]
+    public bool ResetButton;
 
     public void StartQuest()
     {
@@ -85,4 +87,25 @@ public class Quest : ScriptableObject
         return copy;
     }
 
+    public void Reset()
+    {
+        foreach(QuestNodeBase node in QuestNodes)
+        {
+            node.available = false;
+            node.completed = false;
+            node.failed = false;
+        }
+
+        Failed = false;
+        Completed = false;
+        Started = false;
+    }
+
+    public void OnValidate()
+    {
+        if(ResetButton)
+        {
+            ResetButton = false;
+        }
+    }
 }

@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61bfc0111b8f50b4ebc25f43187acb80, type: 3}
   m_Name: Potion
   m_EditorClassIdentifier: 
-  ItemImage: {fileID: 0}
+  ItemImage: {fileID: 7306274148607722714, guid: 19a07ef44977dfb499ce9d8c31050c32,
+    type: 3}
   itemName: Potion
   itemDescription: Heals 25 HP
   HealAmount: 25

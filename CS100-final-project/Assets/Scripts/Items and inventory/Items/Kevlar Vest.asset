@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3165670b2f7378f4a97c60bb2237df04, type: 3}
   m_Name: Kevlar Vest
   m_EditorClassIdentifier: 
-  ItemImage: {fileID: 0}
+  ItemImage: {fileID: 5860025163644826426, guid: 19a07ef44977dfb499ce9d8c31050c32,
+    type: 3}
   itemName: Kevlar vest
   itemDescription: 'Provides some protection. Armor value: 10'
   armorValue: 10

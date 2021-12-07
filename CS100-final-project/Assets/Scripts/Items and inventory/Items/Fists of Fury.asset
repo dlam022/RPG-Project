@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f1d5aab4c2620a4b9fb236b72118141, type: 3}
   m_Name: Fists of Fury
   m_EditorClassIdentifier: 
-  ItemImage: {fileID: 0}
+  ItemImage: {fileID: -2693009140137883590, guid: 19a07ef44977dfb499ce9d8c31050c32,
+    type: 3}
   itemName: Fists of Fury
   itemDescription: 'Some brass knuckles, basically. Attack Value: 15'
   AttackValue: 15

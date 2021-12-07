@@ -22,4 +22,15 @@ public class CharacterSheet : ScriptableObject
     public CharacterSheetEvent OnKillsCharacter;
 
 
+    public bool Reset;
+    public void OnValidate()
+    {
+        if(Reset)
+        {
+            Reset = false;
+            inventory.Reset();
+
+            stats.ModifyCurrentHealth(100);
+        }
+    }
 }

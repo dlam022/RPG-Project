@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3165670b2f7378f4a97c60bb2237df04, type: 3}
   m_Name: Armor Legs
   m_EditorClassIdentifier: 
-  ItemImage: {fileID: 0}
+  ItemImage: {fileID: -732356172534689064, guid: 19a07ef44977dfb499ce9d8c31050c32,
+    type: 3}
   itemName: Legs
   itemDescription: Some Leg Armor
   armorValue: 5

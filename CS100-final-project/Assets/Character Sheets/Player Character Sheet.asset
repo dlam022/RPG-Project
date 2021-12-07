@@ -19,7 +19,7 @@ MonoBehaviour:
         m_Calls: []
     MaxHealth: 100
     CurrentHealth: 100
-    Attack: 15
+    Attack: 10
     Defense: 0
   inventory:
     OnAddItem:
@@ -42,3 +42,4 @@ MonoBehaviour:
   OnKillsCharacter:
     m_PersistentCalls:
       m_Calls: []
+  Reset: 0
