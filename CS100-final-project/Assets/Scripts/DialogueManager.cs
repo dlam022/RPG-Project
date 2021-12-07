@@ -18,6 +18,21 @@ public class DialogueManager : MonoBehaviour
             PersistentGameManager.GetInstance().StartDialogue();
         }
 
+        if(currentNode.eventsTriggeredOnSelectNode.Count > 0)
+        {
+            foreach(DialogueNodeScript.EventTriggers eventTriggers in currentNode.eventsTriggeredOnSelectNode )
+            {
+                if (eventTriggers.EventTrigger != null)
+                {
+                    for (int i = 0; i < eventTriggers.triggerCount; i++)
+                    {
+                        eventTriggers.EventTrigger.Invoke();
+
+                    }
+                }               
+            }
+        }
+
         ClearBox();      
         StartCoroutine(DisplayText(currentNode));
         if(currentNode.Options.Count >1)

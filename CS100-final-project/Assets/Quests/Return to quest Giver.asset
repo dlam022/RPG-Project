@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de363c07e2740540b2811e667b0e237, type: 3}
+  m_Name: Return to quest Giver
+  m_EditorClassIdentifier: 
+  parentQuest: {fileID: 11400000, guid: ffcc7fb132095fb489c53ce0cb460d8d, type: 2}
+  nodeTitle: Return to the NPC
+  NodeID: Kill the Zombies/Return to the NPC
+  uncompletedNodeDescription: 
+  completedNodeDescription: 
+  available: 0
+  completed: 0
+  failed: 0
+  prerequisiteQuestNodes:
+  - {fileID: 11400000, guid: 7bb29a952e90e2840af384a87aff4e43, type: 2}
+  OnNodeFail:
+    m_PersistentCalls:
+      m_Calls: []
+  OnNodeComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  OnNodeAvailable:
+    m_PersistentCalls:
+      m_Calls: []
+  markerLocationInOverworld: {x: 0, y: 0}
+  markerLocationsInBuilding: []

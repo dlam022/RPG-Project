@@ -246,13 +246,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad056237c859ab44bb504563b2d8b7ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TestButton: 0
-  testNode: {fileID: 11400000, guid: 2cbe214310884ce42890a46254b5ce66, type: 2}
   dialogueButtonPrefab: {fileID: 1087214832954933107}
   TextBoxPrefab: {fileID: 1087214833213529699}
   textBox: {fileID: 0}
   activeButtons: []
-  textCrawlSpeed: 0.1
+  textCrawlSpeed: 0.03
 --- !u!1 &1087214832954933107
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6abf5e9b69594c04aa943e9f6c4c84f0, type: 3}
+  m_Name: Kill the zombies quest
+  m_EditorClassIdentifier: 
+  QuestName: Kill the Zombies
+  experienceForCompletion: 0
+  initalNode: {fileID: 11400000, guid: 7bb29a952e90e2840af384a87aff4e43, type: 2}
+  finalNode: {fileID: 11400000, guid: ef59d4b6d15b3414f87137942eaa085c, type: 2}
+  QuestNodes:
+  - {fileID: 11400000, guid: 7bb29a952e90e2840af384a87aff4e43, type: 2}
+  - {fileID: 11400000, guid: ef59d4b6d15b3414f87137942eaa085c, type: 2}
+  playerLevelData:
+    currentExperience: 0
+    experienceRequiredToLevelUp: 0
+    currentLevel: 0
+    OnGainExperience:
+      m_PersistentCalls:
+        m_Calls: []
+    OnGainlevel:
+      m_PersistentCalls:
+        m_Calls: []
+  Started: 0
+  Completed: 0
+  Failed: 0

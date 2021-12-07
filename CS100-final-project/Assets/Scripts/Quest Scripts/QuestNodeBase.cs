@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 using UnityEditor;
 using System.IO;
 
-[CreateAssetMenu(fileName = "Quest Node Base", menuName = "Custom Scriptable Objects/Quest/Quest Node Base")]
+[CreateAssetMenu(fileName = "Quest Node Base", menuName = "Custom Scriptable Objects/Quests/Quest Node Base")]
 public class QuestNodeBase : ScriptableObject
 {
     public Quest parentQuest;

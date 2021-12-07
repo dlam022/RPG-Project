@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 458e774c6e93a974b8345fe6870f1cb7, type: 3}
-  m_Name: Dialogue Test Node 2
+  m_Name: Dialogue Test Node 3b
   m_EditorClassIdentifier: 
-  Options:
-  - {fileID: 11400000, guid: b42de7813000fcf4dbe2b5857acbb76d, type: 2}
-  - {fileID: 11400000, guid: aa726b3321c09084ea1e9b2b58cc1a78, type: 2}
-  - {fileID: 11400000, guid: ca6af8d881c9a3c45a85b04c69f66702, type: 2}
-  MainBodyString: 
-  LeadInTextForButton: 
+  Options: []
+  MainBodyString: We're in some small town. There are no signs so I don't know the
+    name.
+  LeadInTextForButton: Where are we?
   conditional:
     requiredQuestNodes: []
   eventsTriggeredOnSelectNode: []

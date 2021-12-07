@@ -10,11 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 458e774c6e93a974b8345fe6870f1cb7, type: 3}
-  m_Name: Dialogue Test Node 3b
+  m_Name: Dialogue Test Node 2
   m_EditorClassIdentifier: 
-  Options: []
-  MainBodyString: responce b
-  LeadInTextForButton: Test b
+  Options:
+  - {fileID: 11400000, guid: b42de7813000fcf4dbe2b5857acbb76d, type: 2}
+  - {fileID: 11400000, guid: aa726b3321c09084ea1e9b2b58cc1a78, type: 2}
+  - {fileID: 11400000, guid: ca6af8d881c9a3c45a85b04c69f66702, type: 2}
+  - {fileID: 11400000, guid: 7c3a81eda1ec2d342ab6d186b6db3a65, type: 2}
+  - {fileID: 11400000, guid: 57a4ccbf61da1c44c87ba630033ceb84, type: 2}
+  MainBodyString: 
+  LeadInTextForButton: 
   conditional:
     requiredQuestNodes: []
   eventsTriggeredOnSelectNode: []
