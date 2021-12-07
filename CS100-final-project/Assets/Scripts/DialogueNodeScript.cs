@@ -8,12 +8,6 @@ using UnityEngine.Events;
 [CreateAssetMenu(menuName = "Custom Scriptable Objects/Dialogue Node", fileName = "Dialogue Node")]
 public class DialogueNodeScript : ScriptableObject
 {
-  
-    public string CharacterName;
-
-
-    public bool visitOnce;
-    public bool PreviouslyVisited;
 
     public List<DialogueNodeScript> Options;
     

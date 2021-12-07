@@ -6,39 +6,37 @@ using TMPro;
 public class DialogueManager : MonoBehaviour
 {
     public GameObject dialogueButtonPrefab;
-
+    public GameObject TextBoxPrefab;
     public TMP_Text textBox;
-
     public List<GameObject> activeButtons;
-
     public float textCrawlSpeed;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     public void SetupTextBox(DialogueNodeScript currentNode)
     {
         ClearBox();      
         StartCoroutine(DisplayText(currentNode));
-        AddButtons(currentNode);
-        
+        if(currentNode.Options.Count >1)
+        {
+            AddButtons(currentNode);
+        }
     }
 
     public void ClearBox()
     {
         if(activeButtons.Count > 0)
         {
-            for (int i = 0; i < activeButtons.Count - 1; i++)
+            for (int i = 0; i < activeButtons.Count; i++)
             {
                 Destroy(activeButtons[i]);
             }
             activeButtons.Clear();
         }
 
-        textBox.text = "";
+        if(textBox != null)
+        {
+            Destroy(textBox.gameObject);
+        }
+        
     }
 
     public void AddButtons(DialogueNodeScript node)
@@ -50,9 +48,12 @@ public class DialogueManager : MonoBehaviour
                 GameObject g = Instantiate(dialogueButtonPrefab);
                 g.transform.SetParent(dialogueButtonPrefab.transform.parent);
                 DialogueButton button = g.GetComponent<DialogueButton>();
-                button.SetupButton(option);
+                button.SetupButton(this, option);
+
 
                 activeButtons.Add(g);
+
+                g.SetActive(true);
             }
         }
     }
@@ -61,6 +62,15 @@ public class DialogueManager : MonoBehaviour
     {
         if (node.MainBodyString.Length > 0)
         {
+            GameObject box = Instantiate(TextBoxPrefab);
+            box.transform.SetParent(TextBoxPrefab.transform.parent);
+            textBox = box.GetComponent<TMP_Text>();
+   
+            yield return new WaitForEndOfFrame();
+
+            textBox.text = "";
+            box.SetActive(true);
+
             int index = 0;
             while (textBox.text != node.MainBodyString)
             {

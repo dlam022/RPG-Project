@@ -18,9 +18,10 @@ public class DialogueButton : MonoBehaviour, IPointerEnterHandler, IPointerExitH
         buttonImage.enabled = false;
     }
 
-    public void SetupButton(DialogueNodeScript n)
+    public void SetupButton(DialogueManager manager, DialogueNodeScript n)
     {
         node = n;
+        this.manager = manager;
 
         buttonText.text = node.LeadInTextForButton;
     }

@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 458e774c6e93a974b8345fe6870f1cb7, type: 3}
-  m_Name: Dialogue Node
+  m_Name: Dialogue Test Node 1
   m_EditorClassIdentifier: 
-  CharacterName: 
-  visitOnce: 0
-  PreviouslyVisited: 0
-  Options: []
-  MainBodyString: 
+  Options:
+  - {fileID: 11400000, guid: 2ff1a2af72b68324cb5ac627ca6026d6, type: 2}
+  MainBodyString: 'Test test '
   LeadInTextForButton: 
   conditional:
     requiredQuestNodes: []
