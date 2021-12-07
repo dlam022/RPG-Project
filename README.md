@@ -67,12 +67,13 @@
  
  ## Installation/Usage
  
- >  Link #1: https://visualstudio.microsoft/downloads/ <br/>
+ >  Link #1: https://visualstudio.microsoft.com/downloads/ <br/>
  >  Link #2: https://unity3d.com/get-unity/download/archive <br/>
  >  Link #3: https://unity3d.com/get-unity/download <br/>
 
 > * Step #1: Downloading visual studio <br/>
    -Click on Link #1 <br/>
+   ![vs](https://user-images.githubusercontent.com/91449029/145094977-21337ebc-0a4b-48eb-811d-3e441382f3c6.png)
    -We specfically downloaded Visual Studio 2019 (picking the free download option) <br/>
    -After download, there should be a window where you will have to download more to work with unity. <br/>
    -You specifically want an individual component called "Visual Studio Tools for Unity" to be installed along with Visual Studio 2019. <br/>
@@ -81,9 +82,11 @@
 
 > * Step #2: Next Download: Unity <br/>
     -Click on Link #2 <br/>
+    ![unity](https://user-images.githubusercontent.com/91449029/145094381-e737bb18-89e0-4898-b805-64c394181f7d.png) <br/>
     -The version we chose to download was Unity 2019.4.26 <br/>
     -You will need to download both the Unity Hub and the Unity application itself. <br/>
      -If the button for Unity Hub is not working, you can search up Unity Hub Installation on Google (first link that appears) or you can press on Link #3 up above. <br/>
+     ![unity hub](https://user-images.githubusercontent.com/91449029/145094622-77232901-cc7b-41b1-86f0-77ab6e7104b4.png) <br/>
     -After installation, when you open Unity itself, the hub will appear first where you can upload a project(pull this project) or create a new project.  <br/>
 
 
