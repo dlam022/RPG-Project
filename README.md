@@ -35,15 +35,18 @@
  
  >  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! * An updated class diagram that reflects the design patterns you used. You may combine multiple design patterns into one diagram if you'd like, but it needs to be clear which portion of the diagram represents which design pattern (either in the diagram or in the description).
  > ## Final deliverable
- > !!!!!!!!!!!!!!!!!!!!!!!!!!!!All group members will give a demo to the TA during lab time. The TA will check the demo and the project GitHub repository and ask a few questions to all the team members. 
+ > !!!!!!!!!!!!!!!!!!!!!!!!!!!!
  > Before the demo, you should do the following:
  > * Complete the sections below (i.e. Screenshots, Installation/Usage, Testing)
  > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Project board.
- > * Make sure your README file and Project board are up-to-date reflecting the current status of your project (e.g. any changes that you have made during the project such as changes to your class diagram). Previous versions should still be visible through your commit history. 
  
  ## Screenshots
  
- > !!!!!!!!!!!!!!!!!!!!!!!!!!!!!Screenshots of the input/output after running your application
+ >![unknown (1)](https://user-images.githubusercontent.com/91449029/145005670-b75d530a-c608-4775-8178-f931f00e479b.png)
+ >* This is Unity where we create the 2d coded game. This isn't where the actual code is but this is where the code from another IDE(in our case Visual Studio) becomes visual and where the user shall interact when playing with the outcome. This is also the space to create the map, the character orientation, settings, etc. Let us take a closer look at the map we have created here (below) : <br/>
+ > ![unknown](https://user-images.githubusercontent.com/91449029/145005015-cc082565-23cf-4490-99ee-e42ad7992ea5.png) <br/>
+ > * Here we have the full map of the game where we were able to use Unity to create it. Unity allows us to edit the map to make sure it functions like one, for example, we have objects that are animated so that the character is not able to run through the object. Instead the character will run into the object and not be able to proceed unless they go another way. A future idea could be to add if the character were to run into a door then they would enter a new "map" which would be inside whatever door they run in to. <br/>
+
  
  ## Installation/Usage
  
@@ -78,5 +81,5 @@
 
  ## Testing
  
- >!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
+ >* Everything that has to do with testing and memory allocations are all built in through unity where as when we code we will have everything done for us when it comes to testing and what they call the "garabage collection". For that feature they detect whatever is not auto tracked then they will figure out where to put it for you so you don't have to do it manually.
  
