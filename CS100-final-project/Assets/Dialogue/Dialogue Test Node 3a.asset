@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Dialogue Test Node 3a
   m_EditorClassIdentifier: 
   Options: []
-  MainBodyString: Umm... Ew. No.
-  LeadInTextForButton: Lemme Smash.
+  MainBodyString: I'm just here for testing purposes, dude. I don't have a name.
+  LeadInTextForButton: What's your name?
   conditional:
     requiredQuestNodes: []
   eventsTriggeredOnSelectNode: []
