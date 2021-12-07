@@ -73,7 +73,7 @@
 
 > * Step #1: Downloading visual studio <br/>
    -Click on Link #1 <br/>
-   ![vs](https://user-images.githubusercontent.com/91449029/145094977-21337ebc-0a4b-48eb-811d-3e441382f3c6.png)
+   ![vs](https://user-images.githubusercontent.com/91449029/145094977-21337ebc-0a4b-48eb-811d-3e441382f3c6.png) <br/>
    -We specfically downloaded Visual Studio 2019 (picking the free download option) <br/>
    -After download, there should be a window where you will have to download more to work with unity. <br/>
    -You specifically want an individual component called "Visual Studio Tools for Unity" to be installed along with Visual Studio 2019. <br/>
@@ -91,12 +91,14 @@
 
 
 >* Specific Settings we used <br/>
-   -Project Settings: <br/>
+   -Edit: Project Settings: <br/>
     -Graphics: <br/>
      -Custom Axis: x = 0, y = 1, z = 0 <br/>
-   -Preferences: <br/>
+     ![graphics](https://user-images.githubusercontent.com/91449029/145095275-c4734ad1-7ded-4bf2-bfe6-98b3dafebac3.png) <br/>
+   -Edit: Preferences: <br/>
     -External Tools:  <br/>
      -External Script Editor: Visual Studio 2019 (should be selected or found through folders) <br/>
+     ![external tools](https://user-images.githubusercontent.com/91449029/145095403-711cc39c-36de-45b0-b35a-32a8cf4ab670.png) <br/>
 
 
  ## Testing
