@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d09579396e36134284e5234b80f77ec, type: 3}
-  m_Name: Player Character Sheet
+  m_Name: Zombie Character Sheet - Copy1
   m_EditorClassIdentifier: 
-  CharacterName: Player
+  CharacterName: Zombie
   stats:
     OnModifyHealth:
       m_PersistentCalls:
         m_Calls: []
     MaxHealth: 100
     CurrentHealth: 100
-    Attack: 5
+    Attack: 10
     Defense: 0
   inventory:
     OnAddItem:
@@ -29,7 +29,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     itemsInInventory:
-    - {fileID: 11400000, guid: 146c58b811909a54ab33b6593ec5f27e, type: 2}
+    - {fileID: 11400000, guid: 81041fd042d551547a77f0b0a986beb8, type: 2}
   levelData:
     currentExperience: 0
     experienceRequiredToLevelUp: 0

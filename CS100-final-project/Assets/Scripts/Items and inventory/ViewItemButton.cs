@@ -25,14 +25,47 @@ public class ViewItemButton : MonoBehaviour, IPointerEnterHandler, IPointerClick
         {
             buttonImage = GetComponentInChildren<Image>();
         }
+        buttonImage.enabled = false;
 
         if(buttonText == null)
         {
             buttonText = gameObject.GetComponentInChildren<TMP_Text>();
         }
         buttonText.text = item.GetName();
+        ModifyText(m, i);
 
     }
+
+    private void ModifyText(InventoryMenu m, Item i)
+    {
+        if(i as WeaponItem != null)
+        {
+            WeaponItem weapon = i as WeaponItem;
+
+            WeaponItem equippedWeapon = m.playerCharacterSheet.inventory.GetEquippedWeapon();
+            if(equippedWeapon != null && equippedWeapon == weapon)
+            {
+                buttonText.text += " *";
+            }
+        }
+        else if(i as ArmorItem != null)
+        {
+            ArmorItem armor = i as ArmorItem;
+
+            List<ArmorItem> armors = m.playerCharacterSheet.inventory.GetEquippedArmor();
+
+            if(armors.Contains(armor))
+            {
+                buttonText.text += " *";
+            }
+        }
+        else
+        {
+            return;
+        }
+        
+    }
+
 
     public void OnPointerEnter(PointerEventData data)
     {

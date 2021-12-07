@@ -14,7 +14,7 @@ public class UseItemButton : MonoBehaviour, IPointerEnterHandler, IPointerClickH
 
     public UnityEvent OnUseItem;
 
-    public void Setup(Item item, UseItemStrategy strat) // also pass as reference the UI viewer
+    public void Setup(Item item, UseItemStrategy strat, InventoryMenu menu) // also pass as reference the UI viewer
     {
         if (item as WeaponItem != null)
         {
@@ -30,6 +30,25 @@ public class UseItemButton : MonoBehaviour, IPointerEnterHandler, IPointerClickH
         }
 
         strategy = strat;
+
+        if(OnUseItem == null)
+        {
+            OnUseItem = new UnityEvent();
+        }
+
+        if(buttonImage == null)
+        {
+            buttonImage = GetComponentInChildren<Image>();
+        }
+        buttonImage.enabled = false;
+
+        if(buttonText == null)
+        {
+            buttonText = GetComponentInChildren<TMP_Text>();
+        }
+
+
+        OnUseItem.AddListener(menu.ResetList);
     }
 
     public void OnPointerEnter(PointerEventData data)

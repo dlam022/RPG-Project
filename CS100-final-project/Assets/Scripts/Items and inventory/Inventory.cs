@@ -27,7 +27,15 @@ public class Inventory
 
     public void EquipWeapon(WeaponItem item)
     {
-        Weapon = item;
+        if(Weapon == item)
+        {
+            Weapon = null;
+        }
+        else
+        {
+            Weapon = item;
+        }
+        
     }
 
     public void EquipArmor(ArmorItem item)
@@ -35,17 +43,37 @@ public class Inventory
         switch (item.slot)
         {
             case ArmorItem.Slot.Chest:
-                Chest = item;
+                if(Chest == item)
+                {
+                    Chest = null;
+                }
+                else
+                {
+                    Chest = item;
+                }
                 break;
             case ArmorItem.Slot.Legs:
-                Legs = item;
+                if(Legs == item)
+                {
+                    Legs = null;
+                }
+                else
+                {
+                    Legs = item;
+                }
                 break;
 
             case ArmorItem.Slot.Head:
-                Helmet = item;
+                if(Helmet == item)
+                {
+                    Helmet = null;
+                }
+                else
+                {
+                    Helmet = item;
+                }
                 break;
         }
-
 
     }
 
@@ -129,5 +157,37 @@ public class Inventory
     public List<Item> GetItemsInInventory()
     {
         return itemsInInventory;
+    }
+
+    public List<ArmorItem> GetEquippedArmor()
+    {
+        List<ArmorItem> armors = new List<ArmorItem>();
+
+        if(Helmet != null)
+        {
+            armors.Add(Helmet);
+        }
+        if(Chest != null)
+        {
+            armors.Add(Chest);
+        }
+        if(Legs != null)
+        {
+            armors.Add(Legs);
+        }
+        
+        return armors;
+    }
+
+    public WeaponItem GetEquippedWeapon()
+    {
+        if(Weapon != null)
+        {
+            return Weapon;
+        }
+        else
+        {
+            return null;
+        }
     }
 }

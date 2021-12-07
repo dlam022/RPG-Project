@@ -5,6 +5,10 @@ using UnityEngine;
 public class InventoryMenu : MonoBehaviour
 {
     public CharacterSheet playerCharacterSheet;
+
+    public GameObject MenuRootObject;
+    private bool menuOpen;
+
     public GameObject gridLayoutObject;
     public GameObject ItemButtonPrefab;
 
@@ -12,6 +16,26 @@ public class InventoryMenu : MonoBehaviour
 
     public List<ViewItemButton> buttons;
     public ViewItemButton activeButton;
+
+
+    public void Update()
+    {
+     
+
+        if(Input.GetKeyDown("g"))
+        {
+            if(!menuOpen)
+            {
+                MenuRootObject.SetActive(true);
+                ResetList();
+            }
+            else
+            {
+                MenuRootObject.SetActive(false);
+            }
+            menuOpen = !menuOpen;
+        }
+    }
 
     public void ResetList()
     {
@@ -34,6 +58,7 @@ public class InventoryMenu : MonoBehaviour
 
                 g.SetActive(true);
                 button.Setup(this, item);
+                buttons.Add(button);
             }
         }
 
@@ -63,7 +88,7 @@ public class InventoryMenu : MonoBehaviour
     public void DisplayItem(Item item)
     {
         viewer.gameObject.SetActive(true);
-        viewer.Setup(playerCharacterSheet, item);
+        viewer.Setup(playerCharacterSheet, item, this);
     }
 
     public void DeactivateDisplay()

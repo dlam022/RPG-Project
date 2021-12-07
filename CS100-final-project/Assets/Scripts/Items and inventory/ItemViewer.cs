@@ -11,14 +11,18 @@ public class ItemViewer : MonoBehaviour
     public TMP_Text itemDescription;
     public UseItemButton button;
 
-    public void Setup(CharacterSheet sheet, Item item) //Add the inventory list viewer class here to be passed, add a method as listener to use item button event
+    public void Setup(CharacterSheet sheet, Item item, InventoryMenu menu) //Add the inventory list viewer class here to be passed, add a method as listener to use item button event
     {
         EvaluateContext(sheet, item);
 
-        itemDisplayImage.sprite = item.ItemImage;
+        if(item.ItemImage != null)
+        {
+            itemDisplayImage.sprite = item.ItemImage;
+        }
+        
         itemDescription.text = item.GetDescription();
 
-        button.Setup(item, EvaluateContext(sheet, item));
+        button.Setup(item, EvaluateContext(sheet, item), menu);
     }
 
     public UseItemStrategy EvaluateContext(CharacterSheet sheet, Item item)
